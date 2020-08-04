@@ -1,0 +1,54 @@
+body{
+    background-color:white;
+    
+}
+.container
+{
+    position: relative;
+    background-color: whitesmoke;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    padding: 2%;  
+    margin-top: 8%;
+}
+#h
+{
+    margin-left: 20%;
+    padding: 2%;
+}
+#btn1
+{
+   margin-left: 55%;
+}
+#btn2
+{
+    margin-left: 90%;
+    margin-bottom: 1%;
+}
+#div2{
+
+    background-color: white;
+    padding: 2%;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+#btn
+{
+    margin-top: 1%;
+}
+#div1
+{
+    margin-top: 2%;
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    margin-top: -10px;
+}
+#sp1
+{
+    color: gray;
+}

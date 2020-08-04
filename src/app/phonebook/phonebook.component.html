@@ -1,0 +1,27 @@
+<body>
+    <div class="container">
+        <h2 id="h">
+            <span class="glyphicon glyphicon-phone-alt"></span>
+            <b> Phone Book App</b>
+        </h2>
+        <div id="div1">
+            <label><b><h3>Contacts</h3></b></label>
+            <button id="btn1" class="btn btn-primary" (click)="AddContactbutton()"><b>+ Add Contact</b></button>
+        </div>
+        <div id="div1">
+           <!-- <span class="glyphicon glyphicon-search"></span> -->
+          <input type="text" class="form-control" placeholder="Search for the contacts...." >
+          
+        </div>
+        <hr/>
+        <div id="div2" *ngFor = "let cont of contacts">
+            <b>{{cont.name}}</b><br/>
+            <span class="glyphicon glyphicon-earphone" id="sp1">{{cont.phone}}</span>
+            <button id="btn2" class="btn btn-danger" (click)="delContact()"><span class="glyphicon glyphicon-trash"></span></button>
+        </div>
+    </div>
+
+</body>
+<router-outlet>
+    
+</router-outlet>
